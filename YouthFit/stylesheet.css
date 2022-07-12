@@ -7,13 +7,13 @@ body {
 }
 
 header {
-    height: 650px;
-    
+    height: auto;
+    position: relative;
 }
 
 .youthTitle {
-    height: 650px;
-    width: 350px;
+    height: auto;
+    width: 30%;
     background-color: rgba(253, 215, 0, 1);
 }
 
@@ -28,6 +28,7 @@ header {
 
 .youthTitle ul {
     margin-top: 70px;
+    padding-bottom: 150px;
 }
 
 .youthTitle li {
@@ -37,16 +38,23 @@ header {
     padding-bottom: 50px;
 }
 
-.youthTitle li:hover {
+.youthTitle a:hover {
     color: #b4532a;
-    transition: 0.2s;
+    transition: 0.5s;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.youthTitle a {
+    text-decoration: none;
+    color: white;
 }
 
 .youth-img {
-    height: 500px;
-    width: auto;
+    height: auto;
+    width: 80%;
     position: absolute;
-    top: 0px;
+    bottom: 0px;
     right: 0px;
 }
 
@@ -65,7 +73,7 @@ header {
 }
 
 .newsBlock {
-    height: 100px;
+    height: 100%;
     float: left;
     width: 33%;
     border-right: 2px solid #b4532a;
@@ -73,7 +81,7 @@ header {
 }
 
 .newsBlockend {
-    height: 100px;
+    height: 100%;
     float: left;
     width: 33%;
 }
@@ -105,6 +113,11 @@ header {
     margin-right: 40px;
 }
 
+.viewall a {
+    text-decoration: none;
+    color: black;
+}
+
 .view {
     margin: 0;
     padding-right: 20px;
@@ -123,7 +136,8 @@ header {
 }
 
 .youth {
-    margin: 0 0 0 256px;
+    width: 80%;
+    margin-left: auto;
     background-color: rgba(253, 215, 0, 1);
     height: 700px;
     
@@ -145,7 +159,18 @@ header {
     font-weight: 700px;
     font-size:20px;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
+
+
+.triangle-right {
+    display: inline-block;
+    border-style: solid;
+    border-width: 14px 0 14px 24px;
+    border-color: transparent transparent transparent white;
+  }
 
 .byBtn {
     position: absolute;
@@ -159,6 +184,8 @@ header {
     font-weight: 700px;
     font-size:20px;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 .aboutYouth img {
@@ -174,7 +201,9 @@ header {
 }
 
 .questContainer {
-    margin: 100px 200px 100px 0;
+    width: 80%;
+    margin-right: auto;
+    margin-top: 100px;
     background-color: rgba(255, 251, 229, 1);
     height: 800px;
 }
@@ -193,16 +222,22 @@ header {
     position: absolute;
     top: 350px;
     left: 80px;
+    display: flex;
+    flex-direction: row;
 }
 
 .questBlock {
-    float: left;
+    
     height: 350px;
-    width: 270px;
+    width: 33%;
     border: 2px solid rgb(180, 83, 42);
     margin-right: 110px;
     background-color: white;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .quest-img {
@@ -286,6 +321,11 @@ header {
     color: white;
     
     font-size: 15px;
+}
+
+.managerView a {
+    text-decoration: none;
+    color: white;
 }
 
 .managerView h3 {
