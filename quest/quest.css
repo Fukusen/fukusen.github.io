@@ -167,7 +167,7 @@ header a {
 .contentsTitle-left h1 {
     float: left;
     font-size: 100px;
-    margin: 0 150px 0 0;
+    margin: 0 150px 0 0px;
     letter-spacing: 10px;
 }
 
