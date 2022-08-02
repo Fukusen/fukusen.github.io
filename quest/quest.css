@@ -67,6 +67,7 @@ header a {
 .quest {
     height: auto;
     width: 100%;
+    max-width: 1350px;
 }
 
 .questContainer {
@@ -109,7 +110,7 @@ header a {
     margin-bottom: 100px;
 }
 
-.contents-left {
+.contents-right {
     height: auto;
     background-color: rgba(255, 215, 0, 1);
     width: 80%;
@@ -152,7 +153,7 @@ header a {
 
 
 
-.contentsTitle-left {
+.contentsTitle-right {
     position: absolute;
     top: 0;
     left: 5%;
@@ -164,31 +165,31 @@ header a {
     align-items: center;
 }
 
-.contentsTitle-left h1 {
+.contentsTitle-right h1 {
     float: left;
     font-size: 100px;
     margin: 0 100px 0 130px;
     letter-spacing: 10px;
 }
 
-.questOwner-left {
+.questOwner-right {
     display: inline;
     text-align: right;
     margin-left: 150px;
 }
 
-.questOwner-left h3 {
+.questOwner-right h3 {
     margin: 0;
     font-size: 30px;
 }
 
-.questOwner-left h2 {
+.questOwner-right h2 {
     font-size: 70px;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.contents-right {
+.contents-left {
     height: auto;
     background-color: rgba(255, 251, 229, 1);
     width: 80%;
@@ -199,7 +200,7 @@ header a {
     align-items: flex-end;
 }
 
-.contentsTitle-right {
+.contentsTitle-left {
     position: absolute;
     top: 0;
     right: 5%;
@@ -211,25 +212,25 @@ header a {
     align-items: center;
 }
 
-.contentsTitle-right h1 {
+.contentsTitle-left h1 {
     font-size: 100px;
     margin: 0 0 0 150px;
     letter-spacing: 10px;
 }
 
-.questOwner-right {
+.questOwner-left {
     float: left;
     display: inline;
     text-align: left;
     margin-right: 150px;
 }
 
-.questOwner-right h3 {
+.questOwner-left h3 {
     margin: 0;
     font-size: 30px;
 }
 
-.questOwner-right h2 {
+.questOwner-left h2 {
     font-size: 70px;
     margin-top: 0;
     margin-bottom: 0;
