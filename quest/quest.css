@@ -108,6 +108,8 @@ header a {
 .questBox {
     position: relative;
     margin-bottom: 100px;
+    max-width: 1300px;
+    min-width: 1100px;
 }
 
 .contents-right {
@@ -168,14 +170,16 @@ header a {
 .contentsTitle-right h1 {
     float: left;
     font-size: 100px;
-    margin: 0 100px 0 130px;
-    letter-spacing: 10px;
+    margin: 0 0 0 11%;
+    letter-spacing: 20px;
+    
 }
 
 .questOwner-right {
     display: inline;
     text-align: right;
-    margin-left: 150px;
+    margin-left: auto;
+    margin-right: 5%;
 }
 
 .questOwner-right h3 {
@@ -214,15 +218,16 @@ header a {
 
 .contentsTitle-left h1 {
     font-size: 100px;
-    margin: 0 0 0 150px;
-    letter-spacing: 10px;
+    margin: 0 9% 0 0;
+    letter-spacing: 20px;
 }
 
 .questOwner-left {
     float: left;
     display: inline;
     text-align: left;
-    margin-right: 150px;
+    margin-right: auto;
+    margin-left: 5%;
 }
 
 .questOwner-left h3 {
