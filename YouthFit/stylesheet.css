@@ -17,6 +17,12 @@ header {
     background-color: rgba(253, 215, 0, 1);
 }
 
+.youth-logo {
+    width: 50%;
+    height: auto;
+    transform: translate(20%, 10%);
+}
+
 .youthTitle h1 {
     padding: 30px;
     padding-top: 45px;
