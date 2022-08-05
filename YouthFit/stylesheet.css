@@ -41,7 +41,7 @@ header {
 .youthTitle a:hover {
     color: #b4532a;
     transition: 0.5s;
-    font-size: 30px;
+    
     text-decoration: underline;
 }
 
@@ -263,45 +263,52 @@ header {
 .manager {
     height: 550px;
     background-color: rgba(253, 215, 0, 1);
+    
 }
 
 .managerContainer {
-    height: 550px;
+    height: 100%;
 
 }
 
+
+
 .managerBlock {
-    height: 300px;
+    height: auto;
     
-    margin-right: 100px;
-    margin-left: 100px;
-    padding-right: 30px;
-    padding-left: 30px;
+    width: 80%;
+    margin: 0 auto;
+
+    
 }
 
 .managerBox {
-    height: 250px;
-    margin-top: 50px;
-    float: left;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    
     width: 25%;
+    float: left;
     
     box-sizing: border-box;
     padding-right: 20px;
     text-align: center;
-    position: relative;
+    
+    border: 2px solid red;
 }
 
 .managerBox img {
     width: 100%;
     height: auto;
+    margin: 0 auto;
+    transform: translateX(5%);
 }
 
 .managerName {
-    margin: 0;
-    position: absolute;
-    top: 180px;
-    left: 30px;
-    width: 170px;
+    
+    margin: 0 auto;
+    transform: translate(5%, -50%);
+    width: 90%;
     background-color: rgba(255, 251, 229, 1);
 }
 
